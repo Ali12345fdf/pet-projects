@@ -1,0 +1,93 @@
+@mixin title {
+    margin: 0 auto;
+    width: 342px;
+  background: linear-gradient(
+    106.97deg,
+    rgba(238, 223, 248, 0.27) -17.42%,
+    rgba(238, 223, 248, 0.04) 102.22%
+  );
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 4px 4px 13px #000000;
+  padding: 13px 0px;
+  margin-top: 100px;
+
+}
+@mixin title-light {
+  margin: 0 auto;
+  width: 342px;
+  color: rgba(168, 3, 102, 0.76);
+backdrop-filter: blur(16px);
+border-radius: 20px;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #ffffff;
+text-shadow: 4px 4px 13px #000000;
+padding: 13px 0px;
+margin-top: 100px;
+
+}
+@mixin text {
+    padding: 70px 0px 0px ;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-shadow: 4px 4px 13px #000000;
+}
+@mixin input{
+    padding: 15px 170px;
+    background: rgba(248, 97, 124, 0.04);
+    border-radius: 12px;
+    border:3px solid rgba(201, 58, 204, 1);
+    color: white;
+}  
+@mixin table {
+    margin-top: 70px;
+    background: linear-gradient(
+      106.97deg,
+      rgba(238, 223, 248, 0.27) -17.42%,
+      rgba(238, 223, 248, 0.02) 102.22%
+    );
+    backdrop-filter: blur(16px);
+    border-radius: 54px;
+    width: 609px;
+}
+@mixin tables {
+    padding: 54px 50px;
+}
+@mixin btn {
+  background: linear-gradient(
+    106.97deg,
+    rgba(238, 223, 248, 0.27) -17.42%,
+    rgba(238, 223, 248, 0.04) 102.22%
+  );
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 4px 4px 13px #000000;
+  border: none;
+}
+@mixin btn-hover {
+  background: #F68FD3;
+  box-shadow: 0px 1px 17px rgba(255, 255, 255, 0.54);
+}

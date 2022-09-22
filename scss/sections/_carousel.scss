@@ -1,0 +1,68 @@
+.carousel {
+  margin-bottom: 144px;
+  &__title {
+    @include title;
+  }
+  button {
+    background: linear-gradient(
+      102.7deg,
+      rgba(238, 223, 248, 0.4) -22.47%,
+      rgba(238, 223, 248, 0) 108.68%
+    );
+    backdrop-filter: blur(16px);
+    border: none;
+    border-radius: 7px;
+  }
+  &__img {
+    width: 200px;
+    height: 200px;
+  }
+  &__hidden {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &__line {
+    margin: 0 auto;
+    display: flex;
+    width: 591px;
+    height: 197px;
+    position: relative;
+    transition: 0.8s;
+  }
+  &__arrow {
+    padding-top: 7px;
+  }
+  &__flex {
+    display: flex;
+    align-items: center;
+    width: 433px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  &__dots {
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+  &__flex {
+    display: flex;
+    justify-content: center;
+  }
+  &__center {
+    margin: 0px 20px;
+  }
+  &__change, &__change2,&__change3 {
+    width: 27px;
+    height: 27px;
+    background: rgba(196, 196, 196, 0.53);
+    border-radius: 5px;
+    transition: 0.8s;
+  }
+  &__change:hover,&__change2:hover,&__change3:hover {
+    background: #f68fd3;
+    box-shadow: 0px 1px 17px rgba(255, 255, 255, 0.54);
+  } 
+}

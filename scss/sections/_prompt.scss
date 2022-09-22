@@ -1,0 +1,25 @@
+.prompt {
+  &__title {
+    @include title;
+  }
+  &__table {
+    @include table;
+  }
+  &__tables {
+    @include tables;
+  }
+  &__ask {
+  @include btn;
+  padding: 16px 176px;
+    text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  }
+  &__ask:hover {
+    background: #F68FD3;
+    box-shadow: 0px 1px 17px rgba(255, 255, 255, 0.54);
+  }
+  &__result {
+    @include text
+  }
+}

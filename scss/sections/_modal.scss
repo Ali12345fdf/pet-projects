@@ -1,0 +1,74 @@
+.modal {
+    position: relative;
+  &__table {
+    @include table;
+    margin-top: 150px;
+    
+  }
+  &__tables {
+    @include tables;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  &__title {
+    @include title;
+    margin-top: 0px;
+  }
+
+  &__btn {
+    @include btn;
+    margin: 70px 83px 0px 83px;
+    transition: 0.3s;
+    cursor: pointer;
+  padding: 16px 60px;
+
+  }
+  &__btn:hover {
+    background: #F68FD3;
+    box-shadow: 0px 1px 17px rgba(255, 255, 255, 0.54);
+  }
+}
+.window {
+    display: none;
+    backdrop-filter: blur(16px);
+    border-radius: 54px;
+    padding:140px 82px ;
+    background: linear-gradient(106.97deg, rgba(238, 223, 248, 0.27) -17.42%, rgba(238, 223, 248, 0.04) 102.22%);
+    &__me {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 4px 4px 13px #000000;
+        border-radius: 60px;
+        padding: 32px 60px;
+      }
+      &__button{
+        background: linear-gradient(106.97deg, rgba(238, 223, 248, 0.27) -17.42%, rgba(238, 223, 248, 0.04) 102.22%);
+        backdrop-filter: blur(16px);
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+      &__krest{
+          height: 50%;
+          padding: 15px;
+      }
+}
+.background{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 25%;
+    z-index: 1;
+    width: 100%;
+}
+.active{
+    display: block;
+}

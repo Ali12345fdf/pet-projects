@@ -1,0 +1,62 @@
+.sidebar {
+  &__title {
+    @include title;
+    margin-bottom: 70px;
+  }
+  &__open {
+    position: absolute;
+    z-index: 1;
+  }
+  &__line {
+    overflow: hidden;
+    width: 609px;
+    height: 376px;
+    transition: 0.8s;
+  }
+  &__content {
+    transition: 1s;
+    position: relative;
+    transition: 1s;
+    width: 410px;
+    height: 198px;
+    padding: 110px 85px 68px 114px;
+    background: linear-gradient(
+      106.97deg,
+      rgba(238, 223, 248, 0.27) -17.42%,
+      rgba(238, 223, 248, 0.04) 102.22%
+    );
+    backdrop-filter: blur(16px);
+    border-radius: 54px;
+  }
+  &__ul,
+  a,
+  li {
+    @include text;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+  }
+  li {
+    margin-bottom: 30px;
+  }
+  li:first-child {
+    margin-bottom: 0px;
+  }
+  &__lines {
+    margin: 6px 0px 21px 0px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 2px;
+    width: 408px;
+    height: 3px;
+  }
+  &__close {
+    transition: 1s;
+    right: 100%;
+  }
+
+}
+
+
+

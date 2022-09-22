@@ -1,0 +1,27 @@
+.cart {
+    margin-top: 181px;
+    margin-left: 63px; 
+  &__content{
+    background: linear-gradient(
+      105.11deg,
+      rgba(238, 223, 248, 0.71) -22.37%,
+      rgba(238, 223, 248, 0.31) -22.36%,
+      rgba(238, 223, 248, 0) 84.58%
+    );
+    backdrop-filter: blur(16px);
+    padding: 94px 22px 95px 42px;
+    border-radius: 65px;
+    width: 682px;
+  }
+  &__number{
+      @include text;
+      font-size: 96px;
+  }
+  &__title{
+    @include text;
+    font-size: 56px;
+    line-height: 68px;
+    margin-left: 30px;
+  }
+
+}

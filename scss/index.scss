@@ -1,0 +1,37 @@
+@import "./helpers/mixins";
+@import "./helpers/variables";
+@import "./sections/cart";
+@import "./sections/header";
+@import "./sections/planets";
+@import "./sections/text";
+@import "./sections/modal";
+@import "./sections/checkbox";
+@import "./sections/prompt";
+@import "./sections/tabs";
+@import "./sections/slider";
+@import "./sections/collapse";
+@import "./sections/burger";
+@import "./sections/sidebar";
+@import "./sections/carousel";
+
+
+.black {
+  background-color: #082422;
+  margin: 0;
+  transition: 0.8s;
+}
+
+.container {
+  margin: 0 auto;
+  width: 611px;
+}
+input,p,div{
+  margin: 0;
+}
+button{
+  cursor: pointer;
+}
+.light{
+  background-color: white;
+}
+

@@ -1,0 +1,16 @@
+.burger {
+  &__title {
+    @include title;
+  }
+  &__table {
+    @include table;
+    display: flex;
+    justify-content: center;
+    padding: 138px 0px; 
+    transition: 0.3s;
+   background: url(../../img/burger.svg) no-repeat center;
+  }
+}
+.burger-active{
+    background: url(../../img/burger-krest.svg) no-repeat center;
+}

@@ -1,0 +1,47 @@
+.tabs {
+  &__title {
+    @include title;
+  }
+  &__table {
+    @include table;
+  }
+  &__tables {
+    @include tables;
+  }
+  &__info {
+    background: linear-gradient(
+      104.09deg,
+      rgba(211, 149, 249, 0.72) -2.91%,
+      rgba(248, 97, 124, 0.81) 92.8%
+    );
+    backdrop-filter: blur(16px);
+    border-radius: 12px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-shadow: 4px 4px 13px #000000;
+    padding: 21px 23px 25px 23px;
+  }
+  &__button {
+    @include btn;
+    padding: 16px 102px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+  }
+  &__buttons {
+    @include btn;
+    padding: 16px 102px;
+    margin-left: 13px;
+    border-radius: 12px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+  }
+  &__button:hover,
+  &__buttons:hover {
+    @include btn-hover;
+  }
+}

@@ -1,0 +1,31 @@
+.text {
+  &__title {
+    @include title;
+    margin-top: 0px;
+  }
+  &__table {
+    @include table
+  }
+  &__tables {
+@include tables
+  }
+  &__input {
+   @include input;
+  }
+  &__value , &__length {
+   @include text
+  }
+  &__error{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color:#ffffff;
+    text-shadow: 4px 4px 13px #000000;
+}
+}
+.margin{
+    padding: 70px 0px 0px ;
+
+}

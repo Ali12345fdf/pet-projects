@@ -1,0 +1,44 @@
+.slider {
+  
+  &__title {
+    @include title;
+  }
+  button {
+    background: linear-gradient(
+      102.7deg,
+      rgba(238, 223, 248, 0.4) -22.47%,
+      rgba(238, 223, 248, 0) 108.68%
+    );
+    backdrop-filter: blur(16px);
+    border: none;
+    border-radius: 7px;
+  }
+  &__img {
+    width: 200px;
+    height: 200px;
+  }
+  &__hidden {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &__line {
+    margin: 0 auto;
+    display: flex;
+    width: 591px;
+    height: 197px;
+    position: relative;
+    transition: 0.8s;
+  }
+  &__arrow {
+    padding-top: 7px;
+  }
+  &__flex{
+    display: flex;
+    align-items: center;
+    width: 433px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+}
