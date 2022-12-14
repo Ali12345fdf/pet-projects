@@ -13,8 +13,7 @@ input.oninput = () => {
     }else{
         inputError.innerText = ''
         inputError.classList.remove('margin')
-    
-    }    
+     }    
 }
 //modal window
 
@@ -165,6 +164,3 @@ const blackVerse = document.querySelector('.black')
 lightVerse.addEventListener('click',()=>{
     blackVerse.classList.toggle('light')
 })
-
-
-
